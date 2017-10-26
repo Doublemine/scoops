@@ -5,11 +5,14 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.43/v2ray-windows-32.zip",
-      "hash": "92f3489a1e286056087f57d6082472d465b7d0945bd684658d85186942f5e060"
+      "hash": "92f3489a1e286056087f57d6082472d465b7d0945bd684658d85186942f5e060",
+      "extract_dir": "v2ray-v2.43-windows-32"
+
     },
     "32bit": {
       "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.43/v2ray-windows-64.zip",
-      "hash": "618fcf51f221a685b5888396c4825907b72b4254f543bda17eb780091fb8bd9e"
+      "hash": "618fcf51f221a685b5888396c4825907b72b4254f543bda17eb780091fb8bd9e",
+      "extract_dir": "v2ray-v2.43-windows-64"
     }
   },
   "extract_dir": "Files/v2ray-core",
@@ -25,10 +28,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/v2ray/v2ray-core/releases/download/v$matchVersion/v2ray-windows-$matchShort.zip"
+        "url": "https://github.com/v2ray/v2ray-core/releases/download/v$matchVersion/v2ray-windows-$matchShort.zip",
+        "extract_dir": "v2ray-v$matchVersion-windows-64"
+
       },
       "32bit": {
-        "url": "https://github.com/v2ray/v2ray-core/releases/download/v$matchVersion/v2ray-windows-$matchShort.zip"
+        "url": "https://github.com/v2ray/v2ray-core/releases/download/v$matchVersion/v2ray-windows-$matchShort.zip",
+        "extract_dir": "v2ray-v$matchVersion-windows-32"
+
       }
     }
   }
