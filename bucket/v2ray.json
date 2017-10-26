@@ -17,5 +17,16 @@
         "v2ray.exe",
         "wv2ray.exe",
         "conf.exe"
-]
+], "checkver": {
+        "url": "https://github.com/v2ray/v2ray-core/releases/latest",
+        "re": "v(?<version>[\\d\\w.]+)/v2ray-windows-(?<short>[\\d.]+).*\\.exe"
+},"autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/v2ray/v2ray-core/releases/download/v$matchVersion/v2ray-windows-$matchShort.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/v2ray/v2ray-core/releases/download/v$matchVersion/v2ray-windows-$matchShort.zip"
+            }
+}
 }
