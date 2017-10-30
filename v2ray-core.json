@@ -1,7 +1,7 @@
 {
   "homepage": "https://www.v2ray.com/",
   "license": "MIT",
-  "version": "2.43",
+  "version": "2.44",
   "architecture": {
     "64bit": {
       "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.43/v2ray-windows-32.zip",
