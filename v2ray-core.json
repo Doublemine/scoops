@@ -1,24 +1,25 @@
 {
   "homepage": "https://www.v2ray.com/",
   "license": "MIT",
-  "version": "2.46",
+  "version": "2.47",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.45/v2ray-windows-32.zip",
-      "hash": "a3ec2cb4385485425eaa981972d91fa0ffd1ac9de2e8a25b847865dde963169d",
-      "extract_dir": "v2ray-v2.45-windows-32"
+      "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.47/v2ray-windows-32.zip",
+      "hash": "83ce3a300089b67e6b622d2fed1794b4d247c2db78c7e6d5d99dc704a9202df7",
+      "extract_dir": "v2ray-v2.47-windows-32"
 
     },
     "32bit": {
-      "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.45/v2ray-windows-64.zip",
-      "hash": "338122204498ace7c233e1bc375dd42e750a3e892c81fb28deb022e6d4e8b29a",
-      "extract_dir": "v2ray-v2.45-windows-64"
+      "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.47/v2ray-windows-64.zip",
+      "hash": "116f7fe035f57d560c718d86122b5363d5d427440e0d86741c9c04e6da8f466f",
+      "extract_dir": "v2ray-v2.47-windows-64"
     }
   },
   "extract_dir": "Files/v2ray-core",
   "bin": [
     "v2ray.exe",
     "wv2ray.exe",
+    "v2ctl.exe",
     "conf.exe"
   ]
 }
