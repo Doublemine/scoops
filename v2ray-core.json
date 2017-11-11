@@ -5,13 +5,13 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.47/v2ray-windows-32.zip",
-      "hash": "83ce3a300089b67e6b622d2fed1794b4d247c2db78c7e6d5d99dc704a9202df7",
+      "hash": "116f7fe035f57d560c718d86122b5363d5d427440e0d86741c9c04e6da8f466f",
       "extract_dir": "v2ray-v2.47-windows-32"
 
     },
     "32bit": {
       "url": "https://github.com/v2ray/v2ray-core/releases/download/v2.47/v2ray-windows-64.zip",
-      "hash": "116f7fe035f57d560c718d86122b5363d5d427440e0d86741c9c04e6da8f466f",
+      "hash": "83ce3a300089b67e6b622d2fed1794b4d247c2db78c7e6d5d99dc704a9202df7",
       "extract_dir": "v2ray-v2.47-windows-64"
     }
   },
