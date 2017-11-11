@@ -19,7 +19,6 @@
   "bin": [
     "v2ray.exe",
     "wv2ray.exe",
-    "v2ctl.exe",
-    "conf.exe"
+    "v2ctl.exe"
   ]
 }
